@@ -1,7 +1,7 @@
 import cv2
 
 # img = cv2.imread('personPNG.png')
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1080)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 
